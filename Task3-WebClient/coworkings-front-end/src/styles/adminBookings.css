@@ -1,0 +1,36 @@
+/* AdminAllBookings.css */
+.admin-all-bookings {
+    padding: 20px;
+  }
+  
+  .admin-all-bookings table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-all-bookings th,
+  .admin-all-bookings td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-all-bookings th {
+    cursor: pointer;
+  }
+  
+  .admin-all-bookings th:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .admin-all-bookings button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .admin-all-bookings button:hover {
+    background-color: #ff1a1a;
+  }
+  

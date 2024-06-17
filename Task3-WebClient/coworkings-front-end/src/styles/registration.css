@@ -1,0 +1,25 @@
+.main {
+    min-height: calc(100vh - 200px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+}

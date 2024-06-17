@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 28.8, "left": 43.24, "attrs": {} },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": -328.4,
+      "left": 120.8,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -214.4,
+      "left": -282.4,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": 198.8,
+      "left": -218,
+      "rotate": 180,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "keypad1:R1", "esp:19", "green", [ "v0" ] ],
+    [ "keypad1:R2", "esp:18", "green", [ "v0" ] ],
+    [ "keypad1:R3", "esp:5", "green", [ "v0" ] ],
+    [ "keypad1:R4", "esp:17", "green", [ "v0" ] ],
+    [ "keypad1:C1", "esp:16", "green", [ "v0" ] ],
+    [ "esp:4", "keypad1:C2", "green", [ "h0" ] ],
+    [ "keypad1:C3", "esp:2", "green", [ "v0" ] ],
+    [ "esp:15", "keypad1:C4", "green", [ "v0", "h182.4" ] ],
+    [
+      "esp:21",
+      "lcd1:SDA",
+      "magenta",
+      [ "h28.8", "v-105.6", "h-172.8", "v0", "h-297.6", "v-163.2" ]
+    ],
+    [ "esp:22", "lcd1:SCL", "cyan", [ "h19.2", "v-67.2", "h-393.6", "v0", "h-76.8", "v-163.2" ] ],
+    [ "esp:3V3", "lcd1:VCC", "red", [ "h-374.25", "v-230.4" ] ],
+    [ "esp:GND.1", "lcd1:GND", "black", [ "h-393.45", "v-278.4" ] ],
+    [ "esp:GND.1", "servo1:GND", "black", [ "h-38.25", "v144" ] ],
+    [ "esp:5V", "servo1:V+", "red", [ "h-47.85", "v105.6" ] ],
+    [ "esp:14", "servo1:PWM", "green", [ "h-57.45", "v125" ] ]
+  ],
+  "dependencies": {}
+}

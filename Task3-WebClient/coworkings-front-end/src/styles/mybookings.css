@@ -1,0 +1,29 @@
+/* src/styles/bookings.css */
+.container {
+    text-align: center;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    margin: 0 10px;
+  }
+  
+  .bookings-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .booking {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: left;
+  }
+  

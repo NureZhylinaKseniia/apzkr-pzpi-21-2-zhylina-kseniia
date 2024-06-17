@@ -1,0 +1,25 @@
+.main {
+    min-height: calc(100vh - 200px);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.embed-responsive {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}

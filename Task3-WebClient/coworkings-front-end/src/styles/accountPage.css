@@ -1,0 +1,80 @@
+.main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.account-info {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Adds space between buttons */
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    font-size: 16px;
+    color: #fff; /* Ensures text is white for better readability */
+}
+
+.btn-primary {
+    background-color: #1abc9c; /* Vibrant turquoise */
+}
+
+.btn-primary:hover {
+    background-color: #16a085;
+}
+
+.btn-secondary {
+    background-color: #9b59b6; /* Vibrant purple */
+}
+
+.btn-secondary:hover {
+    background-color: #8e44ad;
+}
+
+.btn-danger {
+    background-color: #e74c3c; /* Vibrant red */
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}

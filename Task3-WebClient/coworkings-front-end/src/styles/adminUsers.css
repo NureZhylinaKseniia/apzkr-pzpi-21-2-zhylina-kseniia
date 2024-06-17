@@ -1,0 +1,36 @@
+/* AdminAllUsers.css */
+.admin-all-users {
+    padding: 20px;
+  }
+  
+  .admin-all-users table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-all-users th,
+  .admin-all-users td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-all-users th {
+    cursor: pointer;
+  }
+  
+  .admin-all-users th:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .admin-all-users button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .admin-all-users button:hover {
+    background-color: #ff1a1a;
+  }
+  

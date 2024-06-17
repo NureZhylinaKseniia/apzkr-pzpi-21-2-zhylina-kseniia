@@ -1,0 +1,115 @@
+{
+  "adminHomePage.welcome": "Administration page!",
+
+  "adminAllBookings.allBookings": "All Bookings",
+  "adminAllBookings.bookingID": "Booking ID",
+  "adminAllBookings.startDateTime": "Start Date & Time",
+  "adminAllBookings.endDateTime": "End Date & Time",
+  "adminAllBookings.bookingCode": "Booking Code",
+  "adminAllBookings.user": "User",
+  "adminAllBookings.actions": "Actions",
+
+  "adminAllUsers.allUsers": "All Users",
+  "adminAllUsers.userID": "User ID",
+  "adminAllUsers.email": "Email",
+  "adminAllUsers.fullName": "Full Name",
+  "adminAllUsers.Actions":"Actions",
+
+  "adminRooms.addNewRoom":"Add New Room",
+  "adminRooms.roomName": "Room Name:",
+  "adminRooms.description": "Description:",
+  "adminRooms.addRoom":"Add Room",
+  "adminRooms.addNewWorkplace": "Add New Workplace",
+  "adminRooms.roomID:": "Room ID:",
+  "adminRooms.HourlyRate": "Hourly Rate:",
+  "adminRooms.AddWorkplace": "Add Workplace",
+  "adminRooms.Room": "Room",
+  "adminRooms.Workplace": "Workplace",
+  "adminRooms.NoRoomsAvailable": "No rooms available",
+  
+  "adminAccountPage.title": "Admin Account",
+  "adminAccountPage.email": "Email:",
+  "adminAccountPage.fullname": "Full Name:",
+  "accountPage.logout": "Logout",
+
+
+
+  "userHomePage.welcome": "User Page!",
+
+  "userRooms.Coworkings":"Coworkings",
+  "userRooms.Selectacoworkingspace" : "Select a coworking space",
+  "userRooms.Noroomsavailable":"No rooms available",
+  "userRooms.Room":"Room",
+  "userRooms.Workplace":"Workplace",
+  "userRooms.BookWorkplace":"Book Workplace",
+  "userRooms.Book":"Book",
+
+  "userMyBookings.Code":"Code",
+  "userMyBookings.Start": "Start:",
+  "userMyBookings.End":"End:",
+  "userMyBookings.Workplacenumber": "Workplace number:",
+  "userMyBookings.Roomnumber": "Room number:",
+  "userMyBookings.Coworking":"Coworking:",
+  "userMyBookings.Nobookingsfound":"No bookings found.",
+
+  "userAccountPage.title": "User Account",
+  "userAccountPage.login": "Login",
+  "userAccountPage.email": "Email:",
+  "userAccountPage.fullname": "Full Name:",
+  "userAccountPage.saveChanges": "Save Changes",
+  "userAccountPage.cancel": "Cancel",
+  "userAccountPage.editAccount": "Edit Account",
+
+
+
+  "home.welcome": "Program system for coworkings",
+  "home.description": "Welcome!",
+
+  "about.title": "About Us",
+  "about.description1": "Welcome to us, a vibrant hub designed to foster innovation, creativity, and collaboration. We provide flexible workspaces tailored to meet the diverse needs of freelancers, entrepreneurs, and remote teams. ",
+  "about.description2": "Our state-of-the-art facilities, high-speed internet, and inspiring community events ensure you have everything you need to thrive. ",
+  "about.description3": "Join us and be part of a dynamic community where ideas flourish and businesses grow.",
+
+  "contacts.title": "Contacts",
+  "contacts.address": "Address: 14 Nauki Ave, Kharkiv, Kharkiv Oblast, 61166",
+  "contacts.email": "Email: {email}",
+
+  "login.title": "Login",
+  "login.email": "Email",
+  "login.password": "Password",
+  "login.submit": "Login",
+  "login.invalidCredentials": "Invalid email or password",
+
+  "login.role": "Role",
+  "login.role.user": "User",
+  "login.role.admin": "Manager",
+
+  "registration.title": "Registration",
+  "registration.email": "Email",
+  "registration.password": "Password",
+  "registration.submit": "Register",
+  "registration.invalidCredentials": "Invalid email or password",
+  "registration.fullname": "Full Name",
+
+  "app.title": "Coworkings",
+  "app.home": "Home",
+  "app.about": "About",
+  "app.contacts": "Contacts",
+  "app.login": "Login",
+  "app.register": "Register",
+
+  "userHeader.title": "User",
+  "userHeader.home": "Home",
+  "userHeader.personalAccount": "Personal Account",
+  "userHeader.rooms": "Rooms",
+  "userHeader.myBookings": "My Bookings",
+  "userHeader.account": "Account",
+
+  "adminHeader.title": "Admin",
+  "adminHeader.home": "Home",
+  "adminHeader.backup": "Backup",
+  "adminHeader.allBookings": "All bookings",
+  "adminHeader.allUsers": "All users",
+  "adminHeader.rooms":"Rooms",
+  "adminHeader.account":"Account"
+}
