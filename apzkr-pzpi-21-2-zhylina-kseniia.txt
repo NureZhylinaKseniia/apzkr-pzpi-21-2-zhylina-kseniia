@@ -618,7 +618,7 @@ UserService виконує операції з даними користувач
 
 ПЕРЕЛІК ДЖЕРЕЛ ПОСИЛАННЯ
 1.	Посилання на демонстрацію роботи на YouTube:
-
+https://youtu.be/j9eyfJJKLQk
 2.	Посилання на код програмної системи:
 https://github.com/NureZhylinaKseniia/apzkr-pzpi-21-2-zhylina-kseniia/tree/main
 3.	Посилання на код для рівня ІоТ:
